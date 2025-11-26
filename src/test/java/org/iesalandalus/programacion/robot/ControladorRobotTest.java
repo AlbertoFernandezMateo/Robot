@@ -1,5 +1,6 @@
-package org.iesalandalus.programacion.robot.modelo;
+package org.iesalandalus.programacion.robot;
 
+import org.iesalandalus.programacion.robot.modelo.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,8 +10,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
-import javax.naming.OperationNotSupportedException;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;

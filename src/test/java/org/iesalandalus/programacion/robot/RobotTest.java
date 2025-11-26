@@ -1,11 +1,10 @@
-package org.iesalandalus.programacion.robot.modelo;
+package org.iesalandalus.programacion.robot;
 
+import org.iesalandalus.programacion.robot.modelo.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
-import javax.naming.OperationNotSupportedException;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
